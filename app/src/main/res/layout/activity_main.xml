@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.boyin.weiget.ViewDragLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:padding="20dp"
+        android:text="左上" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:padding="20dp"
+        android:text="右上" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:padding="20dp"
+        android:text="左下" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:padding="20dp"
+        android:text="右下" />
+
+
+</com.boyin.weiget.ViewDragLayout>
